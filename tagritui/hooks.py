@@ -11,26 +11,25 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "tagritui",
-# 		"logo": "/assets/tagritui/logo.png",
-# 		"title": "Tagritui",
-# 		"route": "/tagritui",
-# 		"has_permission": "tagritui.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "tagritui",
+		"logo": "/assets/tagritui/images/tagritui_logo.png",
+		"title": "Tagritui",
+		"route": "/tagritui",
+		"has_permission": "tagritui.api.permission.has_app_permission"
+	}
+]
+
+website_context = {
+    # "get_theme_css": "tagritui.utils.website_theme.get_theme_css"
+}
 
 # Includes in <head>
 # ------------------
-
-# include js, css files in header of desk.html
-# app_include_css = "/assets/tagritui/css/tagritui.css"
-# app_include_js = "/assets/tagritui/js/tagritui.js"
-
 # include js, css files in header of web template
-# web_include_css = "/assets/tagritui/css/tagritui.css"
-# web_include_js = "/assets/tagritui/js/tagritui.js"
+app_include_css = "tagritui.bundle.css"
+app_include_js = ["tagritui.bundle.js"]
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "tagritui/public/scss/website"
@@ -174,9 +173,9 @@ app_license = "mit"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "tagritui.event.get_events"
-# }
+override_whitelisted_methods = {
+	"frappe.core.doctype.user.user.switch_theme": "tagritui.override.switch_theme"
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
@@ -242,3 +241,7 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# File: frappe-bench/apps/tagrit_custom/hooks.py
+
+# This line tells Frappe to run your patch script when you run bench migrate.
+patches = ["tagrit_custom.patches.2025-08-22_rename_erpnext_workspaces_v2"]

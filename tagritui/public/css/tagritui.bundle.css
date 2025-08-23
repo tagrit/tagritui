@@ -1,0 +1,19 @@
+@import "./apricot.bundle.css";
+@import "./watermelon.bundle.css";
+@import "./newara.bundle.css";
+@import "./bluenxy.bundle.css";
+@import "./classic.bundle.css";
+@import "./zwingli_portal.bundle.css";
+
+/* .app-logo{
+    min-height: 10px !important;
+    width: auto !important;
+} */
+
+#toolbar-help {
+    display: none !important;
+}
+
+.dropdown-help {
+    display: none !important;
+}

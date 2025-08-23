@@ -1,0 +1,104 @@
+[data-theme="zwingli"] body {
+	font-size: 14px;
+	background-color: #f3f6f9;
+}
+
+[data-theme="zwingli"] a {
+	color: #666;
+	font-weight: 500;
+}
+[data-theme="zwingli"] .small,
+[data-theme="zwingli"] small {
+	font-size: 95%;
+}
+[data-theme="zwingli"] .h6.uppercase,
+[data-theme="zwingli"] h6.uppercase {
+	font-weight: 600;
+	font-size: 11.5px;
+}
+[data-theme="zwingli"] .navbar-default {
+	background: linear-gradient(to right, #691551, #af3d8f);
+	border: none;
+}
+[data-theme="zwingli"] .navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+[data-theme="zwingli"] .navbar-default .navbar-nav > li > a:hover {
+	color: #ddd;
+}
+[data-theme="zwingli"] .navbar-default .navbar-brand:hover {
+	color: #ddd;
+}
+[data-theme="zwingli"] .widget {
+	background-color: white;
+	border: none;
+	box-shadow: 0px 3px 12px 0px #e8eafcad, 0 3px 3px -2px #461a7714;
+}
+[data-theme="zwingli"] .widget .widget-head .widget-title {
+	font-size: 14px;
+	color: #a5488a;
+}
+[data-theme="zwingli"] .widget.shortcut-widget-box .widget-head .widget-title i {
+	color: #a5488a;
+}
+[data-theme="zwingli"] .desk-container .desk-sidebar .sidebar-item {
+	font-size: 13px;
+	font-weight: 600;
+	color: #444;
+}
+[data-theme="zwingli"] .desk-container .desk-sidebar .sidebar-item.selected,
+[data-theme="zwingli"] .desk-container .desk-sidebar .sidebar-item:hover {
+	color: white;
+	background: linear-gradient(to right, #691551, #bf5ea4bf);
+}
+[data-theme="zwingli"] .layout-side-section {
+	font-size: 14px;
+}
+[data-theme="zwingli"] .uppercase {
+	color: #a5488a;
+}
+[data-theme="zwingli"] .dropdown-menu > li > a {
+	font-size: 13px;
+	color: #666;
+	font-weight: 500;
+}
+[data-theme="zwingli"] .page-head {
+	border-bottom: none !important;
+	box-shadow: 0 1px 10px 1px rgba(115, 108, 203, 0.1);
+}
+[data-theme="zwingli"] .page-title .title-text {
+	color: #ac3c8d;
+	font-size: 22px;
+}
+[data-theme="zwingli"] .layout-main-section {
+	border: 1px solid #e4e4e4;
+	background-color: white;
+}
+[data-theme="zwingli"] .list-row-head {
+	background-color: #f3f6f9;
+	border-bottom: 1px solid #e4e4e4 !important;
+}
+[data-theme="zwingli"] .btn-primary {
+	background-color: #8d2a71;
+	border-color: #8d2a71;
+}
+[data-theme="zwingli"] .control-label,
+[data-theme="zwingli"] .grid-heading-row {
+	font-size: 13px;
+}
+[data-theme="zwingli"] .btn-primary:hover,
+[data-theme="zwingli"] .btn-primary:focus,
+[data-theme="zwingli"] .btn-primary.focus,
+[data-theme="zwingli"] .btn-primary:active,
+[data-theme="zwingli"] .btn-primary.active,
+[data-theme="zwingli"] .open > .dropdown-toggle.btn-primary {
+	background-color: #6a1552;
+	border-color: #6a1552;
+}
+[data-theme="zwingli"] .indicator-right.blue:after,
+[data-theme="zwingli"] .indicator.blue:before {
+	background: #ac3c8d;
+}
+[data-theme="zwingli"] input[type="checkbox"]:checked:before {
+	color: #ae3c8e;
+}
