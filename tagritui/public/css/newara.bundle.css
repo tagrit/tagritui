@@ -1,4 +1,4 @@
-:root {
+[data-theme=newara] {
 	--bg-color:  #e5e8eb;
 	--btn-primary: #714B67;
 	--btn-secondary: #017E8480;
@@ -39,6 +39,23 @@
 
 [data-theme="newara"] .for-login .page-card-head h4 {
 	color: black !important;
+}
+
+[data-theme=newara] #navbar-breadcrumbs > li > a::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    margin-right: .3em;
+    display: inline-block;
+    font-size: 24px;
+    transition: 0.2s;
+    position: relative;
+    top: 3px;
+    content: "\f105";
+    margin-right: 10px;
+    color: var(--white-color);
 }
 
 [data-theme="newara"] .for-login .form-control,

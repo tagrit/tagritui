@@ -1,4 +1,12 @@
 /* Works on Chrome, Edge, and Safari */
+[data-theme=apricot] {
+	--bg-color:  #e5e8eb;
+	--text-btn-color: white;
+	--sidebar-select-color: #017E8420;
+	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
+	--text-base: 14px;
+}
+
 [data-theme=apricot] *::-webkit-scrollbar {
     width: 6px;
 }

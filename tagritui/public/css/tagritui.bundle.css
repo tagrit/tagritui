@@ -1,9 +1,8 @@
 @import "./apricot.bundle.css";
 @import "./watermelon.bundle.css";
 @import "./newara.bundle.css";
-@import "./bluenxy.bundle.css";
-@import "./classic.bundle.css";
 @import "./zwingli_portal.bundle.css";
+
 
 /* .app-logo{
     min-height: 10px !important;
@@ -17,3 +16,57 @@
 .dropdown-help {
     display: none !important;
 }
+
+[data-theme=light] {
+	--bg-color:  #e5e8eb;
+	--btn-primary: #714B67;
+	--btn-secondary: #017E8480;
+	--secondary: #017E84;
+	--navbar-bg: #714B67;
+	--text-btn-color: white;
+	--table-border-color: #714b6740;
+	--btn-default-hover-bg: white;
+	--sidebar-select-color: #017E8420;
+	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
+	--text-base: 14px;
+}
+
+
+/* nav colors start */
+[data-theme=light] .navbar-nav>li>a{
+    color:#fff !important;
+}
+[data-theme=light] .navbar-nav>li>a:hover{
+    color:#ddd !important;
+}
+[data-theme=light] .navbar-brand:hover {
+    color:#ddd !important;
+}
+
+[data-theme="light"] .navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+[data-theme="light"] .navbar-default .navbar-nav > li > a:hover {
+	color: #ddd;
+}
+[data-theme="light"] .navbar-default .navbar-brand:hover {
+	color: #ddd;
+}
+
+[data-theme=light] #navbar-breadcrumbs > li > a::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    margin-right: .3em;
+    display: inline-block;
+    font-size: 24px;
+    transition: 0.2s;
+    position: relative;
+    top: 3px;
+    content: "\f105";
+    margin-right: 10px;
+    color: var(--white-color);
+}
+/* end */

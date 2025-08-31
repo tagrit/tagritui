@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+    console.log('TESTSTSTS');
+
     function updateSidebarLabelsAndTitle() {
         let updated = false;
 
@@ -60,4 +63,23 @@ document.addEventListener('DOMContentLoaded', function () {
                 updateSidebarLabelsAndTitle();
         });
     }
+
+if (window.location.pathname.includes("/login")) {
+    console.log('TEST ROUTE');
+
+    const tryUpdateLogo = () => {
+        const logoImg = document.querySelector('.app-logo'); // Adjust selector if needed
+
+        if (logoImg) {
+            logoImg.src = '/files/tagrit_logo.png';
+            logoImg.style.maxWidth = "200px";
+        } else {
+            // Retry after a short delay if logo not found
+            setTimeout(tryUpdateLogo, 300);
+        }
+    };
+
+    tryUpdateLogo();
+}
+
 });
