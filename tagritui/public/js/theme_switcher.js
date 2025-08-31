@@ -42,16 +42,6 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
                     name:"newara",
                     label: "Newara",
                     info: "Newara Theme"
-                },
-                {
-                    name:"bluenxy",
-                    label: "Bluenxy",
-                    info: "Bluenxy Theme"
-                },
-                {
-                    name:"classic",
-                    label: "Classic",
-                    info: "Classic Theme"
                 }
 			];
 

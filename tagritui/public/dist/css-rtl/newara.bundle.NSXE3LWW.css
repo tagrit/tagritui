@@ -1,0 +1,306 @@
+/* ../../../../../tmp/tmp-78733-XxgVqy4Xj1kU/tagritui/tagritui/public/css/newara.bundle.css */
+[data-theme=newara] {
+  --bg-color: #e5e8eb;
+  --btn-primary: #714B67;
+  --btn-secondary: #017E8480;
+  --secondary: #017E84;
+  --navbar-bg: #714B67;
+  --text-btn-color: white;
+  --table-border-color: #714b6740;
+  --btn-default-hover-bg: white;
+  --sidebar-select-color: #017E8420;
+  --checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
+  --text-base: 14px;
+}
+[data-theme=newara] [data-path=login] .navbar-light {
+  border-bottom: 1px solid var(--blue-400) !important;
+  background: white;
+}
+[data-theme=newara] [data-path=login] .web-footer {
+  border-top: 1px solid var(--blue-400) !important;
+}
+[data-theme=newara] .for-login .page-card {
+  border: 1px solid var(--blue-400) !important;
+}
+[data-theme=newara] .for-login .btn-login {
+  background-color: var(--blue-800) !important;
+  border: none !important;
+  color: white;
+}
+[data-theme=newara] .for-login .btn-login:hover {
+  background-color: var(--blue-600) !important;
+  border: none !important;
+  color: white;
+}
+[data-theme=newara] .for-login .page-card-head h4 {
+  color: black !important;
+}
+[data-theme=newara] #navbar-breadcrumbs > li > a::before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  margin-left: .3em;
+  display: inline-block;
+  font-size: 24px;
+  transition: 0.2s;
+  position: relative;
+  top: 3px;
+  content: "\f105";
+  margin-left: 10px;
+  color: var(--white-color);
+}
+[data-theme=newara] .for-login .form-control,
+[data-theme=newara] .for-login .form-control {
+  background-color: white !important;
+  border: solid 1px var(--blue-400) !important;
+}
+[data-theme=newara] .for-login .form-control:focus,
+[data-theme=newara] .for-login .form-control:hover {
+  box-shadow: 0 0 0 1px var(--blue-300) !important;
+}
+[data-theme=newara] .for-login .page-card .page-card-body .forgot-password-message > * {
+  color: var(--blue-600) !important;
+}
+[data-theme=newara] .navbar .navbar-expand span,
+[data-theme=newara] .navbar .navbar-expand li a,
+[data-theme=newara] #navbar-breadcrumbs a,
+[data-theme=newara] .navbar .nav-item button.nav-link {
+  color: var(--btn-default-hover-bg) !important;
+}
+[data-theme=newara] #navbar-breadcrumbs li.disabled a {
+  color: var(--white-overlay-400) !important;
+}
+[data-theme=newara] .nav-tabs {
+  border: none;
+}
+[data-theme=newara] .search-bar span {
+  color: var(--neutral-black) !important;
+}
+[data-theme=newara] body,
+[data-theme=newara] .page-container {
+  background-color: var(--bg-color) !important;
+}
+[data-theme=newara] .page-head {
+  background-color: white !important;
+}
+[data-theme=newara] .es-icon {
+  @extend .icon;
+  fill: #017e8480 !important;
+  stroke: #017e8480 !important;
+}
+[data-theme=newara] .page-content .layout-main-section {
+  background-color: white;
+}
+[data-theme=newara] .datatable .dt-cell {
+  background-color: #fff !important;
+}
+[data-theme=newara] .desk-sidebar-item {
+  line-height: 2.2;
+}
+[data-theme=newara] .widget.links-widget-box,
+[data-theme=newara] .widget.dashboard-widget-box {
+  border: 1px solid #714b6780;
+}
+[data-theme=newara] .widget.links-widget-box .widget-head .widget-label .widget-title {
+  background-color: white;
+  color: #714b67 !important;
+}
+[data-theme=newara] .widget-body .link-item {
+  margin-bottom: 5px !important;
+}
+[data-theme=newara] .icon-md {
+  width: 30px;
+  height: 30px;
+}
+[data-theme=newara] .onboard-spotlight {
+  color: var(--secondary) !important;
+}
+[data-theme=newara] a.onboard-spotlight .link-content:hover {
+  color: var(--btn-secondary) !important;
+}
+[data-theme=newara] .dropdown-notifications .es-icon {
+  @extend .icon;
+  fill: white !important;
+  stroke: white !important;
+}
+[data-theme=newara] .list-filters .form-control,
+[data-theme=newara] .standard-filter-section .form-control,
+[data-theme=newara] .standard-filter-section .form-control {
+  box-shadow: 0 0 0 1px rgba(124, 124, 124, 0.25) !important;
+}
+[data-theme=newara] .level.list-row-head,
+[data-theme=newara] .level.list-row-head .level-item {
+  font-weight: bold;
+  background-color: var(--gray-300);
+}
+[data-theme=newara] .list-row-container .list-row:hover {
+  background-color: var(--sidebar-select-color);
+}
+[data-theme=newara] .list-filters .form-control:focus,
+[data-theme=newara] .list-filters .form-control:hover,
+[data-theme=newara] .standard-filter-section .form-control:focus,
+[data-theme=newara] .standard-filter-section .form-control:hover {
+  box-shadow: 0 0 0 2px rgba(124, 124, 124, 0.25) !important;
+}
+[data-theme=newara] .form-control,
+[data-theme=newara] .frappe-control .ql-editor:not(.read-mode) {
+  box-shadow: 0 0 0 1px rgba(124, 124, 124, 0.25) !important;
+}
+[data-theme=newara] .ace_editor {
+  box-shadow: 0 0 0 1px rgba(124, 124, 124, 0.25) !important;
+}
+[data-theme=newara] .ql-editor:focus,
+[data-theme=newara] .ace_editor:focus {
+  box-shadow: 0 0 0 2px rgba(124, 124, 124, 0.25) !important;
+}
+[data-theme=newara] .form-control:focus,
+[data-theme=newara] .form-control:hover {
+  box-shadow: 0 0 0 2px #714b6780 !important;
+}
+[data-theme=newara] .form-control:focus {
+  background-color: #714b6725;
+}
+[data-theme=newara] .frappe-control:not([data-fieldtype="MultiSelectPills"]):not([data-fieldtype="Table MultiSelect"]).has-error input:hover,
+[data-theme=newara] .frappe-control:not([data-fieldtype="MultiSelectPills"]):not([data-fieldtype="Table MultiSelect"]).has-error input:focus {
+  box-shadow: 0 0 0 2px #eb909180 !important;
+}
+[data-theme=newara] .frappe-control:not([data-fieldtype="MultiSelectPills"]):not([data-fieldtype="Table MultiSelect"]).has-error input {
+  box-shadow: none !important;
+}
+[data-theme=newara] option {
+  background-color: white !important;
+}
+[data-theme=newara] .grid-heading-row .filter-row,
+[data-theme=newara] .awesomplete [role=listbox] {
+  background-color: white !important;
+}
+[data-theme=newara] .grid-row-open {
+  box-shadow: 0 0 0 3px #714b67 !important;
+}
+[data-theme=newara] .awesomplete [role=option]:hover,
+[data-theme=newara] .awesomplete li:hover {
+  background-color: var(--gray-300) !important;
+}
+[data-theme=newara] input[type=checkbox]:checked {
+  background-color: var(--btn-secondary) !important;
+  background-image: url('data:image/svg+xml, <svg viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 4.00001L2.66667 5.80001L7 1.20001" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>'), var(--checkbox-gradient) !important;
+}
+[data-theme=newara] .datepicker {
+  background-color: var(--bg-color) !important;
+}
+[data-theme=newara] .btn {
+  border-radius: 0.25rem !important;
+}
+[data-theme=newara] .btn.btn-primary {
+  color: var(--text-btn-color);
+  border: solid 2px #714b67 !important;
+}
+[data-theme=newara] .btn.btn-primary:hover {
+  background: var(--btn-default-hover-bg) !important;
+  border: solid 2px #714b67 !important;
+  color: var(--text-color);
+}
+[data-theme=newara] .standard-actions .btn.btn-secondary {
+  background: var(--secondary) !important;
+  border: solid 2px var(--secondary) !important;
+  color: var(--text-btn-color);
+}
+[data-theme=newara] .standard-actions .btn.btn-secondary:hover {
+  background: var(--btn-default-hover-bg) !important;
+  border: solid 2px var(--secondary) !important;
+  color: var(--text-color);
+}
+[data-theme=newara] .custom-actions .btn.btn-default {
+  background: var(--secondary) !important;
+  border: solid 2px var(--secondary) !important;
+  color: var(--text-btn-color);
+}
+[data-theme=newara] .custom-actions .btn.btn-default:hover {
+  background: var(--btn-default-hover-bg) !important;
+  border: solid 2px var(--secondary) !important;
+  color: var(--text-color);
+}
+[data-theme=newara] .btn.btn-secondary .es-icon {
+  @extend .icon;
+  fill: white !important;
+  stroke: white !important;
+}
+[data-theme=newara] .btn.btn-default {
+  background: var(--btn-default-hover-bg) !important;
+  border: solid 1px var(--btn-secondary) !important;
+  color: var(--text-color);
+}
+[data-theme=newara] .btn.grid-add-row {
+  background: var(--btn-default-hover-bg) !important;
+  border: solid 1px var(--btn-secondary) !important;
+  color: var(--text-color);
+}
+[data-theme=newara] .btn.btn-new-doc {
+  background-color: #714b67 !important;
+  color: var(--text-btn-color);
+  border: solid 2px #714b67 !important;
+}
+[data-theme=newara] .btn.btn-new-doc:hover {
+  background: var(--btn-default-hover-bg) !important;
+  border: solid 2px #714b67 !important;
+  color: var(--text-color);
+}
+[data-theme=newara] .custom-actions .btn {
+  font-size: 12px !important;
+}
+[data-theme=newara] .btn-group > .btn:not(:last-child):not(.dropdown-toggle),
+[data-theme=newara] div#driver-popover-item .driver-popover-footer .btn-group > button:not(:last-child):not(.dropdown-toggle),
+[data-theme=newara] .btn-group > .btn-group:not(:last-child) > .btn,
+[data-theme=newara] div#driver-popover-item .driver-popover-footer .btn-group > .btn-group:not(:last-child) > button {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+[data-theme=newara] .btn-group > .btn:not(:first-child),
+[data-theme=newara] div#driver-popover-item .driver-popover-footer .btn-group > button:not(:first-child),
+[data-theme=newara] .btn-group > .btn-group:not(:first-child) > .btn,
+[data-theme=newara] div#driver-popover-item .driver-popover-footer .btn-group > .btn-group:not(:first-child) > button {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+[data-theme=newara] .point-of-sale-app section {
+  min-height: 40rem !important;
+}
+[data-theme=newara] .client-wrapper ul {
+  padding-right: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+[data-theme=newara] .client-wrapper li {
+  float: right;
+  list-style-type: none;
+}
+[data-theme=newara] .client-wrapper li a {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  background-color: var(--gray-300) !important;
+  color: black;
+  text-align: center;
+}
+[data-theme=newara] .client-wrapper li a.plus-pos,
+[data-theme=newara] .client-wrapper li a.plus-pos:focus,
+[data-theme=newara] .client-wrapper li a.plus-pos:hover {
+  background-color: var(--gray-400) !important;
+}
+[data-theme=newara] .client-wrapper li a.minus-pos,
+[data-theme=newara] .client-wrapper li a.minus-pos:focus,
+[data-theme=newara] .client-wrapper li a.minus-pos:hover {
+  background-color: var(--red-400) !important;
+}
+[data-theme=newara] .client-wrapper li a:focus,
+[data-theme=newara] .client-wrapper li a:hover {
+  background-color: var(--gray-400) !important;
+  color: black;
+}
+[data-theme=newara] .client-wrapper li a.active {
+  background-color: white !important;
+  color: black;
+}
+/*# sourceMappingURL=newara.bundle.NSXE3LWW.css.map */

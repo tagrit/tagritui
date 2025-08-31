@@ -35,7 +35,8 @@ app_include_js = ["tagritui.bundle.js"]
 # website_theme_scss = "tagritui/public/scss/website"
 
 # include js, css files in header of web form
-# webform_include_js = {"doctype": "public/js/doctype.js"}
+web_include_js = ["/assets/tagritui/js/web_customization.js"]
+
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
@@ -244,4 +245,3 @@ override_whitelisted_methods = {
 # File: frappe-bench/apps/tagrit_custom/hooks.py
 
 # This line tells Frappe to run your patch script when you run bench migrate.
-patches = ["tagrit_custom.patches.2025-08-22_rename_erpnext_workspaces_v2"]
