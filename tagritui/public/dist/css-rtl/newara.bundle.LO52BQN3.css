@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-78733-AsYm3Ae5wzDc/tagritui/tagritui/public/css/newara.bundle.css */
+/* ../../../../../tmp/tmp-22679-QkDl7EfsesG5/tagritui/tagritui/public/css/newara.bundle.css */
 [data-theme=newara] {
   --bg-color: #e5e8eb;
   --btn-primary: #714B67;
@@ -41,14 +41,13 @@
   font-style: normal;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
-  margin-right: .3em;
+  margin-left: .3em;
   display: inline-block;
-  font-size: 24px;
   transition: 0.2s;
   position: relative;
   top: 3px;
   content: "\f105";
-  margin-right: 10px;
+  margin-left: 10px;
   color: var(--white-color);
 }
 [data-theme=newara] .for-login .form-control,
@@ -96,9 +95,6 @@
 [data-theme=newara] .datatable .dt-cell {
   background-color: #fff !important;
 }
-[data-theme=newara] .desk-sidebar-item {
-  line-height: 2.2;
-}
 [data-theme=newara] .widget.links-widget-box,
 [data-theme=newara] .widget.dashboard-widget-box {
   border: 1px solid #714b6780;
@@ -109,10 +105,6 @@
 }
 [data-theme=newara] .widget-body .link-item {
   margin-bottom: 5px !important;
-}
-[data-theme=newara] .icon-md {
-  width: 30px;
-  height: 30px;
 }
 [data-theme=newara] .onboard-spotlight {
   color: var(--secondary) !important;
@@ -254,26 +246,26 @@
 [data-theme=newara] div#driver-popover-item .driver-popover-footer .btn-group > button:not(:last-child):not(.dropdown-toggle),
 [data-theme=newara] .btn-group > .btn-group:not(:last-child) > .btn,
 [data-theme=newara] div#driver-popover-item .driver-popover-footer .btn-group > .btn-group:not(:last-child) > button {
-  border-top-right-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
 }
 [data-theme=newara] .btn-group > .btn:not(:first-child),
 [data-theme=newara] div#driver-popover-item .driver-popover-footer .btn-group > button:not(:first-child),
 [data-theme=newara] .btn-group > .btn-group:not(:first-child) > .btn,
 [data-theme=newara] div#driver-popover-item .driver-popover-footer .btn-group > .btn-group:not(:first-child) > button {
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 [data-theme=newara] .point-of-sale-app section {
   min-height: 40rem !important;
 }
 [data-theme=newara] .client-wrapper ul {
-  padding-left: 22px;
+  padding-right: 22px;
   margin-top: 0;
   margin-bottom: 0;
 }
 [data-theme=newara] .client-wrapper li {
-  float: left;
+  float: right;
   list-style-type: none;
 }
 [data-theme=newara] .client-wrapper li a {
@@ -303,4 +295,4 @@
   background-color: white !important;
   color: black;
 }
-/*# sourceMappingURL=newara.bundle.WN2THWR6.css.map */
+/*# sourceMappingURL=newara.bundle.LO52BQN3.css.map */
