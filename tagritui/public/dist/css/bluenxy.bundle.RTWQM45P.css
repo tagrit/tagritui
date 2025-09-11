@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
 
-/* ../../../../../tmp/tmp-47616-TrwzM35yv5Lw/tagritui/tagritui/public/css/bluenxy.bundle.css */
+/* ../../../../../tmp/tmp-2378-UVfDiEusPjyp/tagritui/tagritui/public/css/bluenxy.bundle.css */
 [data-theme=bluenxy] .onboard-spotlight .link-content {
   font-weight: 500 !important;
 }
@@ -121,22 +121,6 @@
 [data-theme=bluenxy] .btn-primary {
   background-color: #2155a2;
   border-color: #2155a2;
-}
-[data-theme=bluenxy] #navbar-breadcrumbs > li > a::before {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-  -webkit-font-smoothing: antialiased;
-  margin-left: .3em;
-  display: inline-block;
-  font-size: 24px;
-  transition: 0.2s;
-  position: relative;
-  top: 3px;
-  content: "\f105";
-  margin-left: 10px;
-  color: var(--white-color);
 }
 [data-theme=bluenxy] .btn-primary:hover,
 [data-theme=bluenxy] .btn-primary:focus,
@@ -362,4 +346,4 @@
 [data-theme=bluenxy] .non-profit-blue {
   background: url(/assets/bluetheme/images/charity.png);
 }
-/*# sourceMappingURL=bluenxy.bundle.XHA7H577.css.map */
+/*# sourceMappingURL=bluenxy.bundle.RTWQM45P.css.map */

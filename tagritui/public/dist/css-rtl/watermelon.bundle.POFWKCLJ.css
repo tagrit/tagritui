@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-78733-XxgVqy4Xj1kU/tagritui/tagritui/public/css/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-22679-QkDl7EfsesG5/tagritui/tagritui/public/css/watermelon.bundle.css */
 :root {
   --main-color: #691551;
   --second-color: #af3d8f;
@@ -69,6 +69,7 @@ h6.uppercase {
 }
 [data-theme=watermelon] .widget {
   background-color: var(--widget-bg);
+  color: #fff !important;
   border: none;
   box-shadow: 0px 3px 12px 0px var(--widget-bg), 0 3px 3px -2px #461a7714;
 }
@@ -219,4 +220,41 @@ h6.uppercase {
 [data-theme=watermelon] .mdi.text-green {
   color: #4caf50 !important;
 }
-/*# sourceMappingURL=watermelon.bundle.MLYCT3EC.css.map */
+[data-theme=watermelon] .navbar-nav > li > a {
+  color: #fff !important;
+}
+[data-theme=watermelon] .navbar-nav > li > a:hover {
+  color: #ddd !important;
+}
+[data-theme=watermelon] .navbar-brand:hover {
+  color: #ddd !important;
+}
+[data-theme=watermelon] .navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+[data-theme=watermelon] .navbar-default .navbar-nav > li > a:hover {
+  color: #ddd;
+}
+[data-theme=watermelon] .navbar-default .navbar-brand:hover {
+  color: #ddd;
+}
+[data-theme=watermelon] #navbar-breadcrumbs > li > a::before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  margin-left: .3em;
+  display: inline-block;
+  font-size: 24px;
+  transition: 0.2s;
+  position: relative;
+  top: 3px;
+  content: "\f105";
+  margin-left: 10px;
+  color: var(--white-color);
+}
+[data-theme=watermelon] .widget.links-widget-box .link-item:hover {
+  color: white !important;
+}
+/*# sourceMappingURL=watermelon.bundle.POFWKCLJ.css.map */

@@ -69,4 +69,13 @@
     margin-right: 10px;
     color: var(--white-color);
 }
+
+[data-theme="light"] .form-control {
+	background-color: white !important;
+	color: black !important;
+	border: 1px solid #ccc !important;
+	padding: 6px 10px !important;
+	border-radius: 4px !important;
+}
 /* end */
+
