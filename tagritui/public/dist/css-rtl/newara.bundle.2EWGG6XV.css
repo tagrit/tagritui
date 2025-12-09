@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-22679-Ae5Nr1clZ7lz/tagritui/tagritui/public/css/newara.bundle.css */
+/* ../../../../../tmp/tmp-27619-rqFjLse7UICg/tagritui/tagritui/public/css/newara.bundle.css */
 [data-theme=newara] {
   --bg-color: #e5e8eb;
   --btn-primary: #714B67;
@@ -41,13 +41,13 @@
   font-style: normal;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
-  margin-right: .3em;
+  margin-left: .3em;
   display: inline-block;
   transition: 0.2s;
   position: relative;
   top: 3px;
   content: "\f105";
-  margin-right: 10px;
+  margin-left: 10px;
   color: var(--white-color);
 }
 [data-theme=newara] .for-login .form-control,
@@ -246,26 +246,26 @@
 [data-theme=newara] div#driver-popover-item .driver-popover-footer .btn-group > button:not(:last-child):not(.dropdown-toggle),
 [data-theme=newara] .btn-group > .btn-group:not(:last-child) > .btn,
 [data-theme=newara] div#driver-popover-item .driver-popover-footer .btn-group > .btn-group:not(:last-child) > button {
-  border-top-right-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
 }
 [data-theme=newara] .btn-group > .btn:not(:first-child),
 [data-theme=newara] div#driver-popover-item .driver-popover-footer .btn-group > button:not(:first-child),
 [data-theme=newara] .btn-group > .btn-group:not(:first-child) > .btn,
 [data-theme=newara] div#driver-popover-item .driver-popover-footer .btn-group > .btn-group:not(:first-child) > button {
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 [data-theme=newara] .point-of-sale-app section {
   min-height: 40rem !important;
 }
 [data-theme=newara] .client-wrapper ul {
-  padding-left: 22px;
+  padding-right: 22px;
   margin-top: 0;
   margin-bottom: 0;
 }
 [data-theme=newara] .client-wrapper li {
-  float: left;
+  float: right;
   list-style-type: none;
 }
 [data-theme=newara] .client-wrapper li a {
@@ -295,4 +295,4 @@
   background-color: white !important;
   color: black;
 }
-/*# sourceMappingURL=newara.bundle.SDIZF3YZ.css.map */
+/*# sourceMappingURL=newara.bundle.2EWGG6XV.css.map */
