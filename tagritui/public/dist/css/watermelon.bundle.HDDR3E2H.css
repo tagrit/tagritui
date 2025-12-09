@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-22679-QkDl7EfsesG5/tagritui/tagritui/public/css/watermelon.bundle.css */
+/* ../../../../../tmp/tmp-27619-eHJe4WggZt9Q/tagritui/tagritui/public/css/watermelon.bundle.css */
 :root {
   --main-color: #691551;
   --second-color: #af3d8f;
@@ -38,7 +38,7 @@ h6.uppercase {
   font-size: 11.5px;
 }
 [data-theme=watermelon] .standard-sidebar-item.selected {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 [data-theme=watermelon] .standard-sidebar-item.selected a {
   color: #fff;
@@ -55,7 +55,7 @@ h6.uppercase {
   fill: #fff;
 }
 [data-theme=watermelon] .navbar {
-  background: linear-gradient(to left, var(--main-color), var(--second-color)) !important;
+  background: linear-gradient(to right, var(--main-color), var(--second-color)) !important;
   border: none !important;
 }
 [data-theme=watermelon] .navbar-nav > li > a {
@@ -100,7 +100,7 @@ h6.uppercase {
   font-weight: 500;
 }
 [data-theme=watermelon] .awesomplete > ul > li:hover {
-  background: linear-gradient(to left, var(--main-color), var(--second-color));
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 [data-theme=watermelon] .awesomplete > ul > li:hover a {
   color: #fff;
@@ -244,17 +244,14 @@ h6.uppercase {
   font-style: normal;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
-  margin-left: .3em;
+  margin-right: .3em;
   display: inline-block;
   font-size: 24px;
   transition: 0.2s;
   position: relative;
   top: 3px;
   content: "\f105";
-  margin-left: 10px;
+  margin-right: 10px;
   color: var(--white-color);
 }
-[data-theme=watermelon] .widget.links-widget-box .link-item:hover {
-  color: white !important;
-}
-/*# sourceMappingURL=watermelon.bundle.POFWKCLJ.css.map */
+/*# sourceMappingURL=watermelon.bundle.HDDR3E2H.css.map */

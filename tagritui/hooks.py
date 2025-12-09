@@ -166,6 +166,16 @@ web_include_js = ["/assets/tagritui/js/web_customization.js"]
 # 	],
 # }
 
+
+app_logo_url = "/assets/tagritui/images/tagrit_logo.png"
+
+
+# Add custom bench command location
+commands = [
+    "tagritui.commands.setup_site.run"
+]
+
+
 # Testing
 # -------
 
@@ -176,6 +186,7 @@ web_include_js = ["/assets/tagritui/js/web_customization.js"]
 #
 override_whitelisted_methods = {
 	"frappe.core.doctype.user.user.switch_theme": "tagritui.override.switch_theme"
+	
 }
 #
 # each overriding function accepts a `data` argument;
