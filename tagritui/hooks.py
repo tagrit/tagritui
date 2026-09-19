@@ -17,7 +17,6 @@ add_to_apps_screen = [
 		"logo": "/assets/tagritui/images/tagritui_logo.png",
 		"title": "Tagritui",
 		"route": "/tagritui",
-		"has_permission": "tagritui.api.permission.has_app_permission"
 	}
 ]
 
